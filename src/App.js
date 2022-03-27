@@ -1,6 +1,9 @@
 import React from "react";
+import './App.css';
 import PortfolioContainer from "./components/PortfolioContainer";
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
+
 
 // const App = () => {<PortfolioContainer />; 
 //  <Nav />};
@@ -11,9 +14,10 @@ import Nav from './components/Nav';
 
 export default function App() {
     return (
-      <div>
-        <Nav />
+      <div className="App">
+        <Navbar />
         <PortfolioContainer />
+        <Footer />
       </div>
     );
   }
