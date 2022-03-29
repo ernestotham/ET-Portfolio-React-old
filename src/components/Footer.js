@@ -9,13 +9,14 @@ export default function Footer() {
 
   return (
     <Container fluid className="footer" >
-      <Row bg="dark" variant="dark">
+      <Row bg="light" variant="light">
         <Col md="4" className="footer-copywright">
           <h3>Contact me:</h3>
         </Col>
         
         <Col md="4" className="footer-body" >
           <ul className="list-group list-group-horizontal-md d-flex justify-content-between">
+          <span> </span>
             <li className="list-group-item list-group-item-action list-group-item-dark ">
               <a
                 href="https://github.com/ernestotham"
@@ -25,6 +26,7 @@ export default function Footer() {
               >
                 <SiGithub />
               </a>
+              <span> </span>
             </li>
             <li className="list-group-item list-group-item-action list-group-item-dark">
               <a
@@ -36,6 +38,7 @@ export default function Footer() {
                 <SiLinkedin />
               </a>
             </li>
+            <span> </span>
             <li className="list-group-item list-group-item-action list-group-item-dark">
               <a
                 href="mailto:ernestotha@gmail.com"

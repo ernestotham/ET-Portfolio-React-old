@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/images/2019-deep-space-background.jpg);
+  
+  
 }
 
 code {
@@ -14,14 +17,15 @@ code {
 
 
 .footer{
-  margin-top: 1rem;
+  margin: auto;
   padding: 1rem;
+  
   background-color: #282c34;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 3vmin);
   color: white;
   display: flex;
   flex-direction: column;

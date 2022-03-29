@@ -5,13 +5,9 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import Image from 'react-bootstrap/Image'
 import me from "../../images/me.jpg"
 
-const styles = {
-  navbarStyle: {
-    background: 'green',
-    justifyContent: 'flex-end',
-  },
-};
 
+const styles = {color:'white', background:'black', padding:'40px', borderRadius: 25 + 'px'}
+const stylesConttributions = {color:'white', background:'black', padding:'40px', borderRadius: 25 + 'px'}
 
 export default function About() {
   return (
@@ -19,19 +15,19 @@ export default function About() {
     <Container fluid="md">
 
       <        Row>
-        <Col>
+        <Col fluid="md" style={styles}>
           <br></br>
           <br></br>
           <br></br>
           <br></br>
           <br></br>
-          <p>Hi!!! I am Ernesto Tham</p>
+          <p style={{color:'white'}}>Hi!!! I am Ernesto Tham</p>
           <TypeWriterEffect
             textStyle={{
               fontFamily: 'Red Hat Display',
               color: 'white',
               fontWeight: 500,
-              fontSize: '1.5em',
+              fontSize: '2.5em',
             }}
             startDelay={2000}
             cursorColor="#3F3D56"
@@ -47,7 +43,7 @@ export default function About() {
             typeSpeed={30}
           />
           <br></br>
-          <p>
+          <p style={{color:'white'}}>
             I graduated from Kennesaw State University with a bachelor's degree in Computer Science.
             I have 13 years’ experience system Engineering. I specialized on system mergers and acquisitions, privilege Identity management and automation.
             I love designing and building applications and keeping up with the latest technology. I am currently working on getting a certification as a software Engineer at Georgia Tech.
@@ -58,7 +54,7 @@ export default function About() {
 
         </Col>
 
-        <Col>
+        <Col fluid="md">
         <br></br>
         <br></br>
         <br></br>
@@ -84,18 +80,18 @@ export default function About() {
       <br />
       <br />
       <Row className="mx-0"  >
-        <Col>
-          <h1 className="portfolio-About" style={{ paddingBottom: "20px", justifyContent: "center" }}>
-            My Github contributions <strong className="purple"></strong>
+        <Col fluid="md" background='black'>
+          <h1 className="portfolio-About" style={{color:'white', paddingBottom: "20px", justifyContent: "center" }}>
+            My Github contributions
           </h1>
         </Col>
 
       </Row>
 
       <Row className="mx-0">
-        <Col>
+        <Col fluid="md">
           <div class="d-flex justify-content-center">
-            <GitHubCalendar username="ernestotham" />
+            <GitHubCalendar username="ernestotham" style={stylesConttributions} />
             <br />
       <br />
       <br />
@@ -109,6 +105,13 @@ export default function About() {
         </Col>
 
       </Row>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
 
 
