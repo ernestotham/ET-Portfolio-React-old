@@ -22,9 +22,9 @@ export default function NavbarComponet() {
    
     
     <Nav className="ms-auto">
-      <Nav.Link href="#About">About</Nav.Link>
-      <Nav.Link href="#Work">Work</Nav.Link>
-      <Nav.Link href="#Resume">Resume</Nav.Link>
+      <Nav.Link href="/About">About</Nav.Link>
+      <Nav.Link href="/Work">Work</Nav.Link>
+      <Nav.Link href="/Resume">Resume</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
