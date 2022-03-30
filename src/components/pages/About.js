@@ -33,7 +33,7 @@ const renderTechnologies = () => {
 const renderCloudTechnologies = () => {
 
   return (
-    <Card.Group> 
+    <CardGroup> 
       {techStackList.Cloud.map((card) => (
         <MDBCard style={{ maxWidth: '22rem' }}>
         <MDBCardImage src={card.path} position='top' alt='...' />
@@ -47,14 +47,14 @@ const renderCloudTechnologies = () => {
       </MDBCard>
       )
       )}
-    </Card.Group>
+    </CardGroup>
   )
 }
 
 const renderOtherTechnologies = () => {
 
   return (
-    <Card.Group> 
+    <CardGroup> 
       {techStackList.Other.map((card) => (
         <Card
           id={card.id}
@@ -64,7 +64,7 @@ const renderOtherTechnologies = () => {
         />
       )
       )}
-    </Card.Group>
+    </CardGroup>
   )
 }
 
@@ -72,7 +72,7 @@ const renderOtherTechnologies = () => {
 export default function About() {
   return (
 
-    <Container fluid="md" style={stylesCont}>
+    <Container   style={stylesCont}>
       <br />
       <br />
       <br />
@@ -82,8 +82,8 @@ export default function About() {
       <br />
       <br />
 
-      <Row>
-        <Col fluid="md" style={stylesCol}>
+      <Row container-fluid d-flex m-0>
+        <Col col-md-6 p-0 style={stylesCol}>
           <br></br>
           <br></br>
           <br></br>
@@ -142,7 +142,7 @@ export default function About() {
 
         </Col>
 
-        <Col fluid="md">
+        <Col col-md-6 p-0 className="topbody">
           <br></br>
           <br></br>
           <br></br>
@@ -186,8 +186,8 @@ export default function About() {
       <br />
       <br />
       <br />
-      <Row className="mx-0"  >
-        <Col fluid="md" background='black'>
+      <Row  >
+        <Col background='black'>
           <h1 className="portfolio-About" style={{ color: 'white', paddingBottom: "20px", justifyContent: "center" }}>
             My Github contributions
           </h1>
@@ -195,8 +195,8 @@ export default function About() {
 
       </Row>
 
-      <Row className="mx-0">
-        <Col fluid="md">
+      <Row >
+        <Col >
           <div class="d-flex justify-content-center">
             <GitHubCalendar username="ernestotham" style={stylesConttributions} />
             <br />

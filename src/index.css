@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(../src/images/2019-deep-space-background.jpg);
-  
+  background-size: cover;
+  height: 100vh;
   
 }
 

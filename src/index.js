@@ -9,7 +9,8 @@ import Home from '../src/components/pages/home';
 import About from '../src/components/pages/about';
 import Work from '../src/components/pages/work'
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Ruleta from './components/pages/ruleta'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Route path="/about" element={<About />} />
     <Route path="/work" element={<Work />} />
     <Route path="/home" element={<Home />} />
+    <Route path="/carrousel" element={<Ruleta />} />
   </Routes>
   <Footer/>
 </BrowserRouter>,
