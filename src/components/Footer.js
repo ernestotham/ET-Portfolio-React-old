@@ -10,11 +10,11 @@ export default function Footer() {
   return (
     <Container fluid className="footer" >
       <Row bg="light" variant="light">
-        <Col md="4" className="footer-copywright">
+        <Col md="4">
           <h3>Contact me:</h3>
         </Col>
         
-        <Col md="4" className="footer-body" >
+        <Col md="4">
           <ul className="list-group list-group-horizontal-md d-flex justify-content-between">
           <span> </span>
             <li className="list-group-item list-group-item-action list-group-item-dark ">
