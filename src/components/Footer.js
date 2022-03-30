@@ -8,7 +8,7 @@ export default function Footer() {
   const linkStyle = { border: '1px black', padding: '5px' };
 
   return (
-    <Container fluid className="footer" >
+    <Container className="footer" >
       <Row bg="light" variant="light">
         <Col md="4">
           <h3>Contact me:</h3>
@@ -52,7 +52,7 @@ export default function Footer() {
           </ul>
         </Col>
 
-        <Col md="4" className="footer-copywright">
+        <Col md="4" >
           <h3>Copyright © 2022</h3>
         </Col>
       </Row>

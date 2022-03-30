@@ -72,7 +72,7 @@ const renderOtherTechnologies = () => {
 export default function About() {
   return (
 
-    <Container   style={stylesCont}>
+    <Container  className="d-flex flex-column" style={stylesCont}>
       <br />
       <br />
       <br />
@@ -81,9 +81,9 @@ export default function About() {
       <br />
       <br />
       <br />
-
-      <Row container-fluid d-flex m-0>
-        <Col col-md-6 p-0 style={stylesCol}>
+      <Container>
+      <Row className="d-flex flex-wrap md">
+        <Col className="col-md-6 p-0" style={stylesCol}>
           <br></br>
           <br></br>
           <br></br>
@@ -142,7 +142,7 @@ export default function About() {
 
         </Col>
 
-        <Col col-md-6 p-0 className="topbody">
+        <Col className="col-md-6 p-0">
           <br></br>
           <br></br>
           <br></br>
@@ -164,6 +164,10 @@ export default function About() {
       <br />
       <br />
 
+      </Container>
+
+
+      <Container>  
       <Row>
             {renderTechnologies}
 
@@ -180,8 +184,10 @@ export default function About() {
 
       </Row>
 
+      </Container>    
 
 
+      <Container>
       <br />
       <br />
       <br />
@@ -224,7 +230,7 @@ export default function About() {
       <br />
       <br />
 
-
+      </Container>
 
 
     </Container>
