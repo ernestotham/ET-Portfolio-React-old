@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ET-PORTFOLIO-REACT/static/css/main.12f80776.css",
-    "main.js": "/ET-PORTFOLIO-REACT/static/js/main.8350fedf.js",
-    "static/js/787.5d9727d3.chunk.js": "/ET-PORTFOLIO-REACT/static/js/787.5d9727d3.chunk.js",
-    "static/media/me.jpg": "/ET-PORTFOLIO-REACT/static/media/me.069efae0e08dd099467a.jpg",
-    "static/media/ErnestoResume2022.pdf": "/ET-PORTFOLIO-REACT/static/media/ErnestoResume2022.aa1c74917594263512cc.pdf",
-    "static/media/weatherapp.jpg": "/ET-PORTFOLIO-REACT/static/media/weatherapp.668d3db8689ee9cf641e.jpg",
-    "static/media/BitFit.png": "/ET-PORTFOLIO-REACT/static/media/BitFit.a55e56a88bbd5e561f2a.png",
-    "static/media/2019-deep-space-background.jpg": "/ET-PORTFOLIO-REACT/static/media/2019-deep-space-background.92cb2762ec33d64b59ae.jpg",
-    "static/media/scheduler.jpg": "/ET-PORTFOLIO-REACT/static/media/scheduler.5de225ace8cd797b3581.jpg",
-    "static/media/githomies.jpg": "/ET-PORTFOLIO-REACT/static/media/githomies.6c055216b6c9b166e00f.jpg",
-    "static/media/EmployeeManager.jpg": "/ET-PORTFOLIO-REACT/static/media/EmployeeManager.0101f76a766e04aeb459.jpg",
-    "static/media/techBlog.jpg": "/ET-PORTFOLIO-REACT/static/media/techBlog.17ada3bcd381c5a71bdc.jpg",
-    "index.html": "/ET-PORTFOLIO-REACT/index.html",
-    "main.12f80776.css.map": "/ET-PORTFOLIO-REACT/static/css/main.12f80776.css.map",
-    "main.8350fedf.js.map": "/ET-PORTFOLIO-REACT/static/js/main.8350fedf.js.map",
-    "787.5d9727d3.chunk.js.map": "/ET-PORTFOLIO-REACT/static/js/787.5d9727d3.chunk.js.map"
+    "main.css": "/static/css/main.1480f970.css",
+    "main.js": "/static/js/main.d8c84e9b.js",
+    "static/js/787.5d9727d3.chunk.js": "/static/js/787.5d9727d3.chunk.js",
+    "static/media/me.jpg": "/static/media/me.069efae0e08dd099467a.jpg",
+    "static/media/ErnestoResume2022.pdf": "/static/media/ErnestoResume2022.aa1c74917594263512cc.pdf",
+    "static/media/weatherapp.jpg": "/static/media/weatherapp.668d3db8689ee9cf641e.jpg",
+    "static/media/BitFit.png": "/static/media/BitFit.a55e56a88bbd5e561f2a.png",
+    "static/media/2019-deep-space-background.jpg": "/static/media/2019-deep-space-background.92cb2762ec33d64b59ae.jpg",
+    "static/media/scheduler.jpg": "/static/media/scheduler.5de225ace8cd797b3581.jpg",
+    "static/media/githomies.jpg": "/static/media/githomies.6c055216b6c9b166e00f.jpg",
+    "static/media/EmployeeManager.jpg": "/static/media/EmployeeManager.0101f76a766e04aeb459.jpg",
+    "static/media/techBlog.jpg": "/static/media/techBlog.17ada3bcd381c5a71bdc.jpg",
+    "index.html": "/index.html",
+    "main.1480f970.css.map": "/static/css/main.1480f970.css.map",
+    "main.d8c84e9b.js.map": "/static/js/main.d8c84e9b.js.map",
+    "787.5d9727d3.chunk.js.map": "/static/js/787.5d9727d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12f80776.css",
-    "static/js/main.8350fedf.js"
+    "static/css/main.1480f970.css",
+    "static/js/main.d8c84e9b.js"
   ]
 }
