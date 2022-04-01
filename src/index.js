@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.css';
 import ReactDOM from 'react-dom';
-import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
@@ -10,17 +9,19 @@ import About from '../src/components/pages/about';
 import Work from '../src/components/pages/work'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Ruleta from './components/pages/ruleta'
+import Resume from './components/pages/resume';
+
 
 ReactDOM.render(
   <BrowserRouter>
   <Navbar />
   <Routes>
-    <Route path="/" element={<App />} />
+    <Route path="/" element={<About />} />
     <Route path="/about" element={<About />} />
     <Route path="/work" element={<Work />} />
     <Route path="/home" element={<Home />} />
-    <Route path="/carrousel" element={<Ruleta />} />
+    <Route path="/resume" element={<Resume />} />
+   
   </Routes>
   <Footer/>
 </BrowserRouter>,

@@ -12,19 +12,20 @@ export default function NavbarComponet() {
 
   return (
     <>
-  <Navbar bg="dark" variant="dark" 
+  <Navbar variant="dark" 
       fixed="top"
       expand="md"
-      className="navbar">
+      className="navbar" style={linkStyle} >
     <Container>
     <Navbar.Brand href="#About" className="d-flex">Ernesto Tham</Navbar.Brand>
     <span></span>
    
     
-    <Nav className="ms-auto">
+    <Nav >
       <Nav.Link href="/About">About</Nav.Link>
       <Nav.Link href="/Work">Work</Nav.Link>
       <Nav.Link href="/Resume">Resume</Nav.Link>
+      <Nav.Link to="#Contactme">Contact Me</Nav.Link>
     </Nav>
     </Container>
   </Navbar>

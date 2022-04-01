@@ -53,25 +53,23 @@ const techStackList = {
                 title: "Node",
                 path: "../../images/cPlusPlus.jpg"
             },
-        },
 
-    ],
-
-    Cloud: [
-        {
             card: {
                 id: "AWS",
                 title: "Node",
                 path: "../../images/1200px-Amazon_Web_Services_Logo-svg.png"
             },
-        },
-        {
+
+
             card: {
                 id: "Azure",
                 title: "Node",
                 path: "../../images/Azure-Logo-1024x752.jpg"
             },
+
         },
+
+
 
     ]
 

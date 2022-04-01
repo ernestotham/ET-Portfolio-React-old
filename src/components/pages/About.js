@@ -5,7 +5,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import Image from 'react-bootstrap/Image'
 import me from "../../images/me.jpg"
 import techStackList from '../dataMaps/technologies.js'
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
+
 
 
 const styles = { color: 'white', background: 'black', padding: '40px', borderRadius: 25 + 'px' }
@@ -14,57 +14,36 @@ const stylesCol = { color: 'white', fontSize: '20px', padding: '40px', boderstyl
 const stylesCont = { padding: '2px' }
 
 
-const renderTechnologies = () => {
-
-  return (
-    <MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
-      <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn href='#'>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
-  )
-}
-
-const renderCloudTechnologies = () => {
-
-  return (
-    <CardGroup> 
-      {techStackList.Cloud.map((card) => (
-        <MDBCard style={{ maxWidth: '22rem' }}>
-        <MDBCardImage src={card.path} position='top' alt='...' />
-        <MDBCardBody>
-          <MDBCardTitle>{card.title}</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </MDBCardText>
-          <MDBBtn href='#'>Button</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-      )
-      )}
-    </CardGroup>
-  )
-}
 
 const renderOtherTechnologies = () => {
 
   return (
+    
     <CardGroup> 
-      {techStackList.Other.map((card) => (
-        <Card
-          id={card.id}
-          image={card.path}
-          header={card.title}
-          
-        />
+      <><h1></h1></>
+      {techStackList.Other.map((card, idx) => (
+       
+       <Card
+      //  bg={}
+       key={idx}
+      //  text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
+       style={{ width: '18rem' }}
+       className="mb-2"
+     >
+       <Card.Header>Header</Card.Header>
+       <Card.Body>
+       <Card.Img id="top" src="holder.js/100px180?text=Image cap" />
+         <Card.Title>{card.title}</Card.Title>
+         <Card.Text>
+           Some 
+           {card.path}
+         </Card.Text>
+       </Card.Body>
+     </Card>
       )
       )}
     </CardGroup>
+    
   )
 }
 
@@ -168,19 +147,9 @@ export default function About() {
 
 
       <Container>  
+    
       <Row>
-            {renderTechnologies}
-
-      </Row>
-
-      <Row>
-            {renderCloudTechnologies}
-
-      </Row>
-
-
-      <Row>
-            {renderOtherTechnologies}
+            {renderOtherTechnologies()}
 
       </Row>
 
@@ -203,7 +172,7 @@ export default function About() {
 
       <Row >
         <Col >
-          <div class="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <GitHubCalendar username="ernestotham" style={stylesConttributions} />
             <br />
             <br />
