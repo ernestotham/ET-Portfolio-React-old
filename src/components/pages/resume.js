@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import HTMLFlipBook from "react-pageflip";
 import { useCallback, useRef } from "react";
 import { pdfjs, Document, Page } from "react-pdf";
 import { ButtonGroup, ToggleButton } from "react-bootstrap";

@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import About from '../src/components/pages/about';
-import Work from '../src/components/pages/work'
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Resume from './components/pages/resume';
+import About from '../src/components/pages/about.js';
+import Work from '../src/components/pages/work.js'
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
+import Resume from './components/pages/resume.js';
 
 
 ReactDOM.render(
