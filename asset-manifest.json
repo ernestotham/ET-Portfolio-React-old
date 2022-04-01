@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1480f970.css",
-    "main.js": "/static/js/main.d8c84e9b.js",
+    "main.js": "/static/js/main.b9639cfb.js",
     "static/js/787.5d9727d3.chunk.js": "/static/js/787.5d9727d3.chunk.js",
     "static/media/me.jpg": "/static/media/me.069efae0e08dd099467a.jpg",
     "static/media/ErnestoResume2022.pdf": "/static/media/ErnestoResume2022.aa1c74917594263512cc.pdf",
@@ -14,11 +14,11 @@
     "static/media/techBlog.jpg": "/static/media/techBlog.17ada3bcd381c5a71bdc.jpg",
     "index.html": "/index.html",
     "main.1480f970.css.map": "/static/css/main.1480f970.css.map",
-    "main.d8c84e9b.js.map": "/static/js/main.d8c84e9b.js.map",
+    "main.b9639cfb.js.map": "/static/js/main.b9639cfb.js.map",
     "787.5d9727d3.chunk.js.map": "/static/js/787.5d9727d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1480f970.css",
-    "static/js/main.d8c84e9b.js"
+    "static/js/main.b9639cfb.js"
   ]
 }
