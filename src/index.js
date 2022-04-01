@@ -12,7 +12,7 @@ import Work from './components/pages/work.js';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
   <Navbar />
   <Routes>
     <Route path="/" element={<About />} />
@@ -23,7 +23,7 @@ ReactDOM.render(
    
   </Routes>
   <Footer/>
-</BrowserRouter>,
+</HashRouter>,
   document.getElementById('root')
 );
 
