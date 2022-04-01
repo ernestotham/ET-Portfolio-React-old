@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
-import Resume from './components/pages/resume.js';
-import About from './components/pages/about.js';
-import Work from './components/pages/work.js';
+import Resume from './components/pages/MyResume.js';
+import About from './components/pages/about';
+import Work from './components/pages/MyWork';
 
 
 ReactDOM.render(

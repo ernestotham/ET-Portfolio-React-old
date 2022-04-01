@@ -43,7 +43,7 @@ const renderOtherTechnologies = () => {
 }
 
 
-export default function About() {
+export default function about() {
   return (
 
     <Container  className="d-flex flex-column" style={stylesCont}>

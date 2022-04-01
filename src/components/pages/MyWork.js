@@ -14,7 +14,7 @@ import { IoRocketOutline } from "react-icons/io5";
 
 
 
-export default function Work() {
+export default function MyWork() {
 
   const [index, setIndex] = useState(0);
 
