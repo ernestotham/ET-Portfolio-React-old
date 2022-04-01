@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import Resume from './components/pages/MyResume.js';
-import About from './components/pages/about';
+import About from './components/pages/MyAbout.js';
 import Work from './components/pages/MyWork';
 
 
