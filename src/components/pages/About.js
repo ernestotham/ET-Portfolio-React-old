@@ -20,15 +20,10 @@ const renderOtherTechnologies = () => {
   return (
     
     <CardGroup> 
-      <><h1></h1></>
+      
       {techStackList.Other.map((card, idx) => (
        
-       <Card
-      //  bg={}
-       key={idx}
-      //  text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-       style={{ width: '18rem' }}
-       className="mb-2"
+       <Card key={idx} style={{ width: '18rem' }} className="mb-2"
      >
        <Card.Header>Header</Card.Header>
        <Card.Body>
@@ -37,7 +32,7 @@ const renderOtherTechnologies = () => {
          <Card.Text>
            Some 
            {card.path}
-         </Card.Text>
+         </Card.Text>npm startDelay
        </Card.Body>
      </Card>
       )
