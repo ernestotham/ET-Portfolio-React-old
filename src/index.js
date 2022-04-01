@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-import Home from '../src/components/pages/home';
 import About from '../src/components/pages/about';
 import Work from '../src/components/pages/work'
 import Navbar from './components/Navbar';
@@ -19,7 +18,6 @@ ReactDOM.render(
     <Route path="/" element={<About />} />
     <Route path="/about" element={<About />} />
     <Route path="/work" element={<Work />} />
-    <Route path="/home" element={<Home />} />
     <Route path="/resume" element={<Resume />} />
    
   </Routes>
