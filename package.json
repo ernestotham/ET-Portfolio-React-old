@@ -1,17 +1,19 @@
 {
-  "name": "Ernesto Potfolio",
+  "name": "ET-PORTFOLIO-REACT",
   "version": "0.1.0",
   "private": true,
   "engines": {
     "node": "^16.13.0",
     "npm": "^8.1.2"
   },
+  "homepage": "https://ernestotham.github.io/ET-PORTFOLIO-REACT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^3.2.3",
     "mdb-react-ui-kit": "^3.0.0",
     "node": "^17.7.2",
     "react": "^17.0.2",
@@ -29,6 +31,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
