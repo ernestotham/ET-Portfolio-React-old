@@ -6,7 +6,7 @@
     "node": "^16.13.0",
     "npm": "^8.1.2"
   },
-  "homepage": "https://ernestotham.github.io/",
+  
     "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
