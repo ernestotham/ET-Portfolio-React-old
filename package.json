@@ -6,9 +6,8 @@
     "node": "^16.13.0",
     "npm": "^8.1.2"
   },
-  "homepage": "https://ernestotham.github.io/ET-PORTFOLIO-REACT",
-  "proxy": "http://localhost:5000",
-  "dependencies": {
+  "homepage": "https://ernestotham.github.io/",
+    "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -33,7 +32,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

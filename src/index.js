@@ -19,6 +19,7 @@ ReactDOM.render(
     <Route path="/about" element={<About />} />
     <Route path="/work" element={<Work />} />
     <Route path="/resume" element={<Resume />} />
+    <Route path="ET-PORTFOLIO-REACT" element={<About />} />
    
   </Routes>
   <Footer/>
