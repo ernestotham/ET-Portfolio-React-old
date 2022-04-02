@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import ReactDOM from 'react-dom';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar.js';
@@ -12,7 +12,7 @@ import Work from './components/pages/MyWork';
 
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
   <Navbar />
   <Routes>
     <Route path="/" element={<About />} />
@@ -23,7 +23,7 @@ ReactDOM.render(
    
   </Routes>
   <Footer/>
-</HashRouter>,
+</BrowserRouter>,
   document.getElementById('root')
 );
 
