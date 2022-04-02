@@ -10,7 +10,6 @@ export default function App() {
       <div className="App">
         <Navbar />
         <About />
-        
         <Footer />
       </div>
     );
